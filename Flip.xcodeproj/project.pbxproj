@@ -14,6 +14,12 @@
 		3B13F8AB1B2FB781001D2DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F8AA1B2FB781001D2DA9 /* Images.xcassets */; };
 		3B13F8AE1B2FB781001D2DA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F8AC1B2FB781001D2DA9 /* LaunchScreen.xib */; };
 		3B13F8BA1B2FB781001D2DA9 /* FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13F8B91B2FB781001D2DA9 /* FlipTests.swift */; };
+		3B13F8CC1B2FB791001D2DA9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13F8CB1B2FB791001D2DA9 /* InterfaceController.swift */; };
+		3B13F8CE1B2FB791001D2DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F8CD1B2FB791001D2DA9 /* Images.xcassets */; };
+		3B13F8D21B2FB791001D2DA9 /* Flip WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F8D11B2FB791001D2DA9 /* Flip WatchKit App.app */; };
+		3B13F8DA1B2FB791001D2DA9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F8D81B2FB791001D2DA9 /* Interface.storyboard */; };
+		3B13F8DC1B2FB791001D2DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F8DB1B2FB791001D2DA9 /* Images.xcassets */; };
+		3B13F8DF1B2FB791001D2DA9 /* Flip WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B13F8C71B2FB791001D2DA9 /* Flip WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +30,35 @@
 			remoteGlobalIDString = 3B13F89A1B2FB781001D2DA9;
 			remoteInfo = Flip;
 		};
+		3B13F8D31B2FB791001D2DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B13F8931B2FB781001D2DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B13F8D01B2FB791001D2DA9;
+			remoteInfo = "Flip WatchKit App";
+		};
+		3B13F8DD1B2FB791001D2DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B13F8931B2FB781001D2DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B13F8C61B2FB791001D2DA9;
+			remoteInfo = "Flip WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B13F8E61B2FB791001D2DA9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B13F8DF1B2FB791001D2DA9 /* Flip WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3B13F89B1B2FB781001D2DA9 /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +72,14 @@
 		3B13F8B31B2FB781001D2DA9 /* FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B13F8B81B2FB781001D2DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B13F8B91B2FB781001D2DA9 /* FlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTests.swift; sourceTree = "<group>"; };
+		3B13F8C71B2FB791001D2DA9 /* Flip WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Flip WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B13F8CA1B2FB791001D2DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B13F8CB1B2FB791001D2DA9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3B13F8CD1B2FB791001D2DA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B13F8D11B2FB791001D2DA9 /* Flip WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flip WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B13F8D71B2FB791001D2DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B13F8D91B2FB791001D2DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3B13F8DB1B2FB791001D2DA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B13F8C41B2FB791001D2DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +112,8 @@
 			children = (
 				3B13F89D1B2FB781001D2DA9 /* Flip */,
 				3B13F8B61B2FB781001D2DA9 /* FlipTests */,
+				3B13F8C81B2FB791001D2DA9 /* Flip WatchKit Extension */,
+				3B13F8D51B2FB791001D2DA9 /* Flip WatchKit App */,
 				3B13F89C1B2FB781001D2DA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +123,8 @@
 			children = (
 				3B13F89B1B2FB781001D2DA9 /* Flip.app */,
 				3B13F8B31B2FB781001D2DA9 /* FlipTests.xctest */,
+				3B13F8C71B2FB791001D2DA9 /* Flip WatchKit Extension.appex */,
+				3B13F8D11B2FB791001D2DA9 /* Flip WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +168,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3B13F8C81B2FB791001D2DA9 /* Flip WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F8CB1B2FB791001D2DA9 /* InterfaceController.swift */,
+				3B13F8CD1B2FB791001D2DA9 /* Images.xcassets */,
+				3B13F8C91B2FB791001D2DA9 /* Supporting Files */,
+			);
+			path = "Flip WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3B13F8C91B2FB791001D2DA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F8CA1B2FB791001D2DA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B13F8D51B2FB791001D2DA9 /* Flip WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F8D81B2FB791001D2DA9 /* Interface.storyboard */,
+				3B13F8DB1B2FB791001D2DA9 /* Images.xcassets */,
+				3B13F8D61B2FB791001D2DA9 /* Supporting Files */,
+			);
+			path = "Flip WatchKit App";
+			sourceTree = "<group>";
+		};
+		3B13F8D61B2FB791001D2DA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F8D71B2FB791001D2DA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +214,12 @@
 				3B13F8971B2FB781001D2DA9 /* Sources */,
 				3B13F8981B2FB781001D2DA9 /* Frameworks */,
 				3B13F8991B2FB781001D2DA9 /* Resources */,
+				3B13F8E61B2FB791001D2DA9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3B13F8DE1B2FB791001D2DA9 /* PBXTargetDependency */,
 			);
 			name = Flip;
 			productName = Flip;
@@ -153,6 +244,39 @@
 			productReference = 3B13F8B31B2FB781001D2DA9 /* FlipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3B13F8C61B2FB791001D2DA9 /* Flip WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B13F8E31B2FB791001D2DA9 /* Build configuration list for PBXNativeTarget "Flip WatchKit Extension" */;
+			buildPhases = (
+				3B13F8C31B2FB791001D2DA9 /* Sources */,
+				3B13F8C41B2FB791001D2DA9 /* Frameworks */,
+				3B13F8C51B2FB791001D2DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B13F8D41B2FB791001D2DA9 /* PBXTargetDependency */,
+			);
+			name = "Flip WatchKit Extension";
+			productName = "Flip WatchKit Extension";
+			productReference = 3B13F8C71B2FB791001D2DA9 /* Flip WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3B13F8D01B2FB791001D2DA9 /* Flip WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B13F8E01B2FB791001D2DA9 /* Build configuration list for PBXNativeTarget "Flip WatchKit App" */;
+			buildPhases = (
+				3B13F8CF1B2FB791001D2DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flip WatchKit App";
+			productName = "Flip WatchKit App";
+			productReference = 3B13F8D11B2FB791001D2DA9 /* Flip WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +292,12 @@
 					3B13F8B21B2FB781001D2DA9 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 3B13F89A1B2FB781001D2DA9;
+					};
+					3B13F8C61B2FB791001D2DA9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3B13F8D01B2FB791001D2DA9 = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -186,6 +316,8 @@
 			targets = (
 				3B13F89A1B2FB781001D2DA9 /* Flip */,
 				3B13F8B21B2FB781001D2DA9 /* FlipTests */,
+				3B13F8C61B2FB791001D2DA9 /* Flip WatchKit Extension */,
+				3B13F8D01B2FB791001D2DA9 /* Flip WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +337,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B13F8C51B2FB791001D2DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B13F8CE1B2FB791001D2DA9 /* Images.xcassets in Resources */,
+				3B13F8D21B2FB791001D2DA9 /* Flip WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B13F8CF1B2FB791001D2DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B13F8DA1B2FB791001D2DA9 /* Interface.storyboard in Resources */,
+				3B13F8DC1B2FB791001D2DA9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +379,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B13F8C31B2FB791001D2DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B13F8CC1B2FB791001D2DA9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +394,16 @@
 			isa = PBXTargetDependency;
 			target = 3B13F89A1B2FB781001D2DA9 /* Flip */;
 			targetProxy = 3B13F8B41B2FB781001D2DA9 /* PBXContainerItemProxy */;
+		};
+		3B13F8D41B2FB791001D2DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B13F8D01B2FB791001D2DA9 /* Flip WatchKit App */;
+			targetProxy = 3B13F8D31B2FB791001D2DA9 /* PBXContainerItemProxy */;
+		};
+		3B13F8DE1B2FB791001D2DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B13F8C61B2FB791001D2DA9 /* Flip WatchKit Extension */;
+			targetProxy = 3B13F8DD1B2FB791001D2DA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +422,14 @@
 				3B13F8AD1B2FB781001D2DA9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3B13F8D81B2FB791001D2DA9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B13F8D91B2FB791001D2DA9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -394,6 +570,62 @@
 			};
 			name = Release;
 		};
+		3B13F8E11B2FB791001D2DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Flip_WatchKit_Extension;
+				INFOPLIST_FILE = "Flip WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3B13F8E21B2FB791001D2DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Flip_WatchKit_Extension;
+				INFOPLIST_FILE = "Flip WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3B13F8E41B2FB791001D2DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B13F8E51B2FB791001D2DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Flip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -419,6 +651,22 @@
 			buildConfigurations = (
 				3B13F8C11B2FB781001D2DA9 /* Debug */,
 				3B13F8C21B2FB781001D2DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B13F8E01B2FB791001D2DA9 /* Build configuration list for PBXNativeTarget "Flip WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13F8E11B2FB791001D2DA9 /* Debug */,
+				3B13F8E21B2FB791001D2DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B13F8E31B2FB791001D2DA9 /* Build configuration list for PBXNativeTarget "Flip WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13F8E41B2FB791001D2DA9 /* Debug */,
+				3B13F8E51B2FB791001D2DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
